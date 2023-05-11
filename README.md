@@ -17,9 +17,9 @@
 <p>To install this project, follow these steps:</p>
 
 <ol>
-  <li>Step 1.</li>
-  <li>Step 2.</li>
-  <li>Step 3.</li>
+  <li>copy Chisagent.py to the server</li>
+  <li>edit the /etc/bash.bashrc by vi or nano</li>
+  <li>add this line in the end of the file export PROMPT_COMMAND='python3 /home/demo/Chisagent/Chisagent.py "$(history 1 | sed -e "s/^[ ]*[0-9]\+[ ]*//g")"' (note:change this path /home/demo/Chisagent/Chisagent.py )</li>
 </ol>
 
-<p>After completing these steps, the project should be installed and ready to use.</p>
+<p>After completing these steps, the project should be installed and ready to use. shuld see under /tmp history json</p>
