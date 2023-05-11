@@ -19,7 +19,8 @@
 <ol>
   <li>copy Chisagent.py to the server</li>
   <li>edit the /etc/bash.bashrc by vi or nano</li>
-  <li>add this line in the end of the file export PROMPT_COMMAND='python3 /home/demo/Chisagent/Chisagent.py "$(history 1 | sed -e "s/^[ ]*[0-9]\+[ ]*//g")"' </li>
+  <li>add this line in the end of the file 
+  export PROMPT_COMMAND='python3 /home/demo/Chisagent/Chisagent.py "$(history 1 | sed -e "s/^[ ]*[0-9]\+[ ]*//g")"' </li>
   (note:change this path /home/demo/Chisagent/Chisagent.py )
 </ol>
 
