@@ -6,11 +6,8 @@
 
 <h2>Screenshots</h2>
 
-<img src="screenshot1.png" alt="Screenshot 1">
-<p>Caption for screenshot 1.</p>
-
-<img src="screenshot2.png" alt="Screenshot 2">
-<p>Caption for screenshot 2.</p>
+<img src="https://github.com/idanless/Chisagent/blob/main/tempsnip.jpg?raw=true" alt="Screenshot 1">
+<p>history json demo</p>
 
 <h2>Installation</h2>
 
